@@ -1,0 +1,56 @@
+
+
+1. git config --global user.name "你的用户名字"
+
+2. git config --global user.email "你的邮箱"git
+
+3. git init 将这个目录变成Git可用管理的仓库
+
+4. git add  "目标文件路径"          上传到中转区
+
+5. git commit -m  "注释名"             上传到文件保存区
+
+----
+(
+6. rm "文件路径加文件名"                 删除文件
+
+7.git log 查看最近3三次更改
+
+8.git reset --hard HEAD~ 回到上一个版本
+
+9.git reset --hard  (commit id 写前几位就可以了) 返回指定版本
+)
+----
+10. 远程库 上传到gitHub
+
+  $ssh-keygen -t rsa -C "你的邮箱地址"      然后一路回车
+
+  生成.ssh文件夹 复制id_rsa.pub文件内容 粘贴到 github网站上 SSH keys 那里
+
+  在github创建一个库 复制 SSH码
+
+11.创建github仓库 绑定
+$ git remote add origin git@github.com:stone9179/stone.git
+
+(假设报错被占用 先用git remote rm orgin 清除)
+
+9.
+第一次上传要执行
+
+ git push -u origin master    将文件上传到github
+
+以后直接执行
+
+11 git push origin master
+
+更新文件程序
+4->5->11
+
+
+
+
+key(中软):
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxnFWvNRcZv3X4joE+daZOlILjOkY0vjxHpMkdyNsao/HQeZEgrhqoj3YJ778rIrqTwpsPSFiVjQ8SBnqx7SHlf1Z6NWnOFS5372Rqq3ENZ4NTjUPOkp2uNQSHRssu0kD5vtcEMQ5lRJ0FAD62u3rXpiTMsdD8Pv+gQjveaT3n5h6jUoIxZuaBff7IOZpCyPP2bQOT/UoNtIRm6JpxZpIKE099FN3DA8M0bVwJ2l+Q6DSzfE407Y/GiYWXA6CuDOWH6xvBT/uzFT4nIZnY8e/do/XqygL7crpflufmD1f4yaGq7Ful3hld4R1M9MuQXl0+6JxbZs5nY+KrTOGRuO8X 1137112367@qq.com
+
+
+
