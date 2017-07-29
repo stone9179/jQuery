@@ -32,7 +32,7 @@
 11.创建github仓库 绑定
 $ git remote add origin git@github.com:stone9179/stone.git
 
-(假设报错被占用 先用git remote rm orgin 清除)
+(假设报错被占用 先用git remote rm origin 清除)
 
 9.
 第一次上传要执行
