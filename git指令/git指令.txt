@@ -1,56 +1,53 @@
 
 
-1. git config --global user.name "ƒ„µƒ”√ªß√˚◊÷"
+1. git config --global user.name "‰Ω†ÁöÑÁî®Êà∑ÂêçÂ≠ó"
 
-2. git config --global user.email "ƒ„µƒ” œ‰"git
+2. git config --global user.email "‰Ω†ÁöÑÈÇÆÁÆ±"git
 
-3. git init Ω´’‚∏ˆƒø¬º±‰≥…Gitø…”√π‹¿Ìµƒ≤÷ø‚
+3. git init Â∞ÜËøô‰∏™ÁõÆÂΩïÂèòÊàêGitÂèØÁî®ÁÆ°ÁêÜÁöÑ‰ªìÂ∫ì
 
-4. git add  "ƒø±ÍŒƒº˛¬∑æ∂"          …œ¥´µΩ÷–◊™«¯
+4. git add  "ÁõÆÊ†áÊñá‰ª∂Ë∑ØÂæÑ"          ‰∏ä‰º†Âà∞‰∏≠ËΩ¨Âå∫
 
-5. git commit -m  "◊¢ Õ√˚"             …œ¥´µΩŒƒº˛±£¥Ê«¯
+5. git commit -m  "Ê≥®ÈáäÂêç"             ‰∏ä‰º†Âà∞Êñá‰ª∂‰øùÂ≠òÂå∫
 
 ----
 (
-6. rm "Œƒº˛¬∑æ∂º”Œƒº˛√˚"                 …æ≥˝Œƒº˛
+6. rm "Êñá‰ª∂Ë∑ØÂæÑÂä†Êñá‰ª∂Âêç"                 Âà†Èô§Êñá‰ª∂
 
-7.git log ≤Èø¥◊ÓΩ¸3»˝¥Œ∏¸∏ƒ
+7.git log Êü•ÁúãÊúÄËøë3‰∏âÊ¨°Êõ¥Êîπ
 
-8.git reset --hard HEAD~ ªÿµΩ…œ“ª∏ˆ∞Ê±æ
+8.git reset --hard HEAD~ ÂõûÂà∞‰∏ä‰∏Ä‰∏™ÁâàÊú¨
 
-9.git reset --hard  (commit id –¥«∞º∏ŒªæÕø…“‘¡À) ∑µªÿ÷∏∂®∞Ê±æ
+9.git reset --hard  (commit id ÂÜôÂâçÂá†‰ΩçÂ∞±ÂèØ‰ª•‰∫Ü) ËøîÂõûÊåáÂÆöÁâàÊú¨
 )
 ----
-10. ‘∂≥Ãø‚ …œ¥´µΩgitHub
+10. ËøúÁ®ãÂ∫ì ‰∏ä‰º†Âà∞gitHub
 
-  $ssh-keygen -t rsa -C "ƒ„µƒ” œ‰µÿ÷∑"      »ª∫Û“ª¬∑ªÿ≥µ
+  $ssh-keygen -t rsa -C "‰Ω†ÁöÑÈÇÆÁÆ±Âú∞ÂùÄ"      ÁÑ∂Âêé‰∏ÄË∑ØÂõûËΩ¶
 
-  …˙≥….sshŒƒº˛º– ∏¥÷∆id_rsa.pubŒƒº˛ƒ⁄»› ’≥Ã˘µΩ githubÕ¯’æ…œ SSH keys ƒ«¿Ô
+  ÁîüÊàê.sshÊñá‰ª∂Â§π Â§çÂà∂id_rsa.pubÊñá‰ª∂ÂÜÖÂÆπ Á≤òË¥¥Âà∞ githubÁΩëÁ´ô‰∏ä SSH keys ÈÇ£Èáå
 
-  ‘⁄github¥¥Ω®“ª∏ˆø‚ ∏¥÷∆ SSH¬Î
+  Âú®githubÂàõÂª∫‰∏Ä‰∏™Â∫ì Â§çÂà∂ SSHÁ†Å
 
-11.¥¥Ω®github≤÷ø‚ ∞Û∂®
-$ git remote add origin git@github.com:stone9179/stone.git
+11.ÂàõÂª∫github‰ªìÂ∫ì ÁªëÂÆö
+$ git remote add origin Ôºàgit@github.com:stone9179/stone.gitÔºâ
 
-(ºŸ…Ë±®¥Ì±ª’º”√ œ»”√git remote rm origin «Â≥˝)
+(ÂÅáËÆæÊä•ÈîôË¢´Âç†Áî® ÂÖàÁî®git remote rm origin Ê∏ÖÈô§)
 
 9.
-µ⁄“ª¥Œ…œ¥´“™÷¥––
+Á¨¨‰∏ÄÊ¨°‰∏ä‰º†Ë¶ÅÊâßË°å
 
- git push -u origin master    Ω´Œƒº˛…œ¥´µΩgithub
+ git push -u origin master    Â∞ÜÊñá‰ª∂‰∏ä‰º†Âà∞github
 
-“‘∫Û÷±Ω”÷¥––
+‰ª•ÂêéÁõ¥Êé•ÊâßË°å
 
 11 git push origin master
 
-∏¸–¬Œƒº˛≥Ã–Ú
+Êõ¥Êñ∞Êñá‰ª∂Á®ãÂ∫è
 4->5->11
 
 
 
-
-key(÷–»Ì):
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxnFWvNRcZv3X4joE+daZOlILjOkY0vjxHpMkdyNsao/HQeZEgrhqoj3YJ778rIrqTwpsPSFiVjQ8SBnqx7SHlf1Z6NWnOFS5372Rqq3ENZ4NTjUPOkp2uNQSHRssu0kD5vtcEMQ5lRJ0FAD62u3rXpiTMsdD8Pv+gQjveaT3n5h6jUoIxZuaBff7IOZpCyPP2bQOT/UoNtIRm6JpxZpIKE099FN3DA8M0bVwJ2l+Q6DSzfE407Y/GiYWXA6CuDOWH6xvBT/uzFT4nIZnY8e/do/XqygL7crpflufmD1f4yaGq7Ful3hld4R1M9MuQXl0+6JxbZs5nY+KrTOGRuO8X 1137112367@qq.com
 
 
 
